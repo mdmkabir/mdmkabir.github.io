@@ -92,7 +92,7 @@ const Sidebar = () => {
               <div class="contact-info">
                 <p class="contact-title">Permanent Address</p>
 
-                <address>Dhaka Bangladesh</address>
+                <address>Dhaka, Bangladesh</address>
               </div>
             </li>
           </ul>

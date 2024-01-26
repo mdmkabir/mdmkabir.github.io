@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import j1 from "../assets/blog/b1.png";
+import Getsop from "./Getsop";
 
 const Blog = () => {
   const blog = {
@@ -70,6 +71,9 @@ Embarking on a journey toward higher studies is a dream for many individuals see
 {/* <br /> */}
 
 Securing a fully-funded scholarship for higher studies in top countries requires dedication, thorough research, and a strong application. You can turn your dream of studying abroad into a reality by building an impressive academic profile, crafting compelling application materials, and exploring various scholarship avenues. Remember to start early, stay focused, and persevere in your pursuit of academic excellence. Good luck!
+          <div>
+            <Getsop />
+          </div>
           </div>
         </div>
       </section>
