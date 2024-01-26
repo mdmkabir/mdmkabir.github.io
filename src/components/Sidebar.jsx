@@ -192,6 +192,18 @@ const Sidebar = () => {
                 <address>Budapest-1027, Hungary</address>
               </div>
             </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Permanent Address</p>
+
+                <address>Dhaka Bangladesh</address>
+              </div>
+            </li>
           </ul>
 
           <div class="separator"></div>
