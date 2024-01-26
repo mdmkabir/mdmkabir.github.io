@@ -25,7 +25,7 @@ const Contact = () => {
           </div>
         ) : null}
         <div>
-          <h3 class="h3 form-title">Contact Form</h3>
+          <h3 class="h3 form-title">Send me a message</h3>
 
           {/* entry.427038658=Kabir&entry.475499993=test@gmail.com&entry.1442825963=Test&entry.1555716452=Hello */}
 

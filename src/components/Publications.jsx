@@ -446,7 +446,7 @@ const Publications = () => {
             ) : null
           )}
         </div>
-        <div className="alert2 text-center mt">Rest of the publications will be added soon.</div>
+        {/* <div className="alert2 text-center mt">Rest of the publications will be added soon.</div> */}
       </section>
     </div>
   );

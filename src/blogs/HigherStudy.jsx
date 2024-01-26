@@ -3,42 +3,6 @@ import { useState } from "react";
 import j1 from "../assets/blog/b1.png";
 
 const Blog = () => {
-  const [pubType, setPubType] = React.useState("");
-  const [isAll, setIsAll] = useState(true);
-  const [isJournal, setIsJournal] = useState(false);
-  const [isConference, setIsConference] = useState(false);
-  const [isBookChapter, setIsBookChapter] = useState(false);
-
-  function handleAll() {
-    setPubType("");
-    setIsAll(true);
-    setIsJournal(false);
-    setIsConference(false);
-    setIsBookChapter(false);
-  }
-
-  function handleJournal() {
-    setPubType("Journal");
-    setIsJournal(true);
-    setIsConference(false);
-    setIsBookChapter(false);
-    setIsAll(false);
-  }
-  function handleConference() {
-    setPubType("Conference");
-    setIsConference(true);
-    setIsJournal(false);
-    setIsBookChapter(false);
-    setIsAll(false);
-  }
-  function handleBookChapter() {
-    setPubType("Book Chapter");
-    setIsBookChapter(true);
-    setIsConference(false);
-    setIsJournal(false);
-    setIsAll(false);
-  }
-
   const blog = {
     title: "A Comprehensive Guide to Securing Full-Funded Scholarships for Higher Studies Abroad",
     desc: "Embarking on a journey toward higher studies is a dream for many individuals seeking academic excellence and personal growth. However, the financial burden associated with pursuing",

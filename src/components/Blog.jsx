@@ -1,9 +1,11 @@
 import React from "react";
 import { useState } from "react";
-import j1 from "../assets/blog/b1.png";
+import b1 from "../assets/blog/b1.png";
+import b2 from "../assets/blog/b2.png";
 
 import About from "./About";
 import HigherStudy from "../blogs/HigherStudy";
+import ErasmusIfros from "../blogs/ErasmusIfros";
 
 const Blog = () => {
   const [activeComponent, setActiveComponent] = useState("");
@@ -13,6 +15,8 @@ const Blog = () => {
     switch (activeComponent) {
       case "hs":
         return <HigherStudy />;
+      case "ei":
+        return <ErasmusIfros />;
 
       default:
         return null;
@@ -30,7 +34,15 @@ const Blog = () => {
       title: "A Comprehensive Guide to Securing Full-Funded Scholarships for Higher Studies Abroad",
       desc: "Embarking on a journey toward higher studies is a dream for many individuals seeking academic excellence and personal growth. However, the financial burden associated with pursuing",
       link: "higher-studies-abroad",
-      img: j1,
+      img: b1,
+      sf: "hs",
+    },
+    {
+      title: "A Comprehensive Guide to Securing Full-Funded Scholarships for Higher Studies Abroad",
+      desc: "Embarking on a journey toward higher studies is a dream for many individuals seeking academic excellence and personal growth. However, the financial burden associated with pursuing",
+      link: "higher-studies-abroad",
+      img: b2,
+      sf: "ei",
     },
   ];
   return (
@@ -44,10 +56,10 @@ const Blog = () => {
           <div class="cards">
             {blogs.map((blog) => (
               <div class="card">
-                <a onClick={() => handleButtonClick("hs")}>
-                  <img src={blog.img} alt="Hot air balloons" />
+                <a className="blog-link img-thumbd" onClick={() => handleButtonClick(blog.sf)}>
+                  <img src={blog.img} className="img-thumb" alt={blog.title} />
                   <div class="card-item">
-                    <div class="title">{blog.title}</div>
+                    <div class="title hover-link">{blog.title}</div>
                     <div class="year">{blog.desc}...</div>
                     <div className=""></div>
                   </div>
