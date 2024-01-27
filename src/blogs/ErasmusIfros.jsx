@@ -6,7 +6,7 @@ import Getsop from "./Getsop";
 const Blog = () => {
   const blog = {
     title: "Navigating the Path to Erasmus Masters at IFRoS: A Personal Journey",
-    desc: "Embarking on a journey toward higher studies is a dream for many individuals seeking academic excellence and personal growth. However, the financial burden associated with pursuing",
+    desc: "In this blog post, I'll detail my journey applying for an Erasmus Masters program at IFRoS. I'll discuss the requirements, evaluation criteria, and essential steps I took to secure acceptance, offering valuable insights for prospective applicants.",
     link: "higher-studies-abroad",
     img: b2,
   };

@@ -38,9 +38,9 @@ const Blog = () => {
       sf: "hs",
     },
     {
-      title: "A Comprehensive Guide to Securing Full-Funded Scholarships for Higher Studies Abroad",
-      desc: "Embarking on a journey toward higher studies is a dream for many individuals seeking academic excellence and personal growth. However, the financial burden associated with pursuing",
-      link: "higher-studies-abroad",
+      title: "Navigating the Path to Erasmus Masters at IFRoS: A Personal Journey",
+      desc: "In this blog post, I'll detail my journey applying for an Erasmus Masters program at IFRoS. I'll discuss the requirements, evaluation criteria, and essential steps I took to secure acceptance, offering valuable insights for prospective applicants.",
+      link: "path-to-erasmus-masters",
       img: b2,
       sf: "ei",
     },
