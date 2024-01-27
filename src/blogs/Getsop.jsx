@@ -15,7 +15,7 @@ const Getsop = () => {
     if (password == "AMIR@2023") {
       window.open("https://drive.google.com/drive/folders/165l_RTV1LOWc2m92Pm77GR_q7uKhH56K?usp=sharing");
     } else {
-      setMsg("Wrong password, conact with me to get the password.");
+      setMsg("Wrong password, contact with me to get the password.");
     }
   }
 
