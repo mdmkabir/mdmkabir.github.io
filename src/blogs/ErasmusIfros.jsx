@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import b2 from "../assets/blog/b2.png";
 import Getsop from "./Getsop";
+import Rbtn from "./Rbtn";
 
 const Blog = () => {
   const blog = {
@@ -63,6 +64,8 @@ Embarking on the journey of applying for an Erasmus Masters program can be both 
 {/* <h2>Conclusion</h2> */}
 {/* <br /> */}
 In conclusion, my scholarship application journey with IFRoS has been a fulfilling odyssey marked by meticulous preparation and dedication. Understanding and meeting the criteria, emphasizing academic excellence, and crafting compelling documents were pivotal in securing the Erasmus Mundus scholarship. As I reflect on three completed semesters in the Erasmus Masters program, I can attest to the transformative power of perseverance. To aspiring scholars, I emphasize the importance of thorough preparation, a solid academic profile, and resilience in navigating the application process. The journey may pose challenges, but the rewards, as evidenced by my own experience, make every effort worthwhile. As I eagerly await my thesis, I extend best wishes to fellow scholars – may your academic pursuits be as rewarding and impactful as mine has been. Good luck, and may your scholarly endeavors lead you to new heights of success.
+<Rbtn pid="b2"/>
+          
           <Getsop />
           </div>
         </div>
