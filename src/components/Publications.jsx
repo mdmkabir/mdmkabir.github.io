@@ -40,6 +40,17 @@ const Publications = () => {
 
   const publications = [
     {
+      title: "Machine learning and deep learning for user authentication and authorization in cybersecurity: A state-of-the-art review",
+      journal: "Computers & Security",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://doi.org/10.1016/j.cose.2024.103747",
+      // img: j1,
+    },
+
+    
+    {
       title: "Modern Subtype Classification and Outlier Detection Using the Attention Embedder to Transform Ovarian Cancer Diagnosis",
       journal: "Tomography",
       quartiles: "Q2",
