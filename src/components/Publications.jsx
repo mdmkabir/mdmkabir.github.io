@@ -48,17 +48,6 @@ const Publications = () => {
       link: "https://doi.org/10.1016/j.cose.2024.103747",
       // img: j1,
     },
-
-    
-    {
-      title: "Modern Subtype Classification and Outlier Detection Using the Attention Embedder to Transform Ovarian Cancer Diagnosis",
-      journal: "Tomography",
-      quartiles: "Q2",
-      type: "Journal",
-      year: "2024",
-      link: "https://www.mdpi.com/2379-139X/10/1/10",
-      // img: j1,
-    },
     {
       title: "Palm Leaf Health Management: A Hybrid Approach for Automated Disease Detection and Therapy Enhancement",
       journal: "IEEE Access",
