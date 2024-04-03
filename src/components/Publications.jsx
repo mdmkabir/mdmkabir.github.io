@@ -49,13 +49,22 @@ const Publications = () => {
       // img: j1,
     },
     {
+      title: "Arabic Speech Recognition: Advancement and Challenges",
+      journal: "IEEE Access",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://ieeexplore.ieee.org/abstract/document/10466536/",
+      // img: j2,
+    },
+    {
       title: "Palm Leaf Health Management: A Hybrid Approach for Automated Disease Detection and Therapy Enhancement",
       journal: "IEEE Access",
       quartiles: "Q1",
       type: "Journal",
       year: "2024",
       link: "https://ieeexplore.ieee.org/abstract/document/10385067/",
-      // img: j2,
+      // img: j3,
     },
     {
       title: "Machine learning enabled IoT system for soil nutrients monitoring and crop recommendation",
