@@ -1,3 +1,4 @@
+import { set } from "firebase/database";
 import React from "react";
 import { useState } from "react";
 
@@ -7,6 +8,7 @@ const Publications = () => {
   const [isJournal, setIsJournal] = useState(false);
   const [isConference, setIsConference] = useState(false);
   const [isBookChapter, setIsBookChapter] = useState(false);
+  const [isDataset, setIsDataset] = useState(false);
 
   function handleAll() {
     setPubType("All");
@@ -14,6 +16,7 @@ const Publications = () => {
     setIsJournal(false);
     setIsConference(false);
     setIsBookChapter(false);
+    setIsDataset(false);
   }
 
   function handleJournal() {
@@ -22,6 +25,7 @@ const Publications = () => {
     setIsConference(false);
     setIsBookChapter(false);
     setIsAll(false);
+    setIsDataset(false);
   }
   function handleConference() {
     setPubType("Conference");
@@ -29,12 +33,23 @@ const Publications = () => {
     setIsJournal(false);
     setIsBookChapter(false);
     setIsAll(false);
+    setIsDataset(false);
   }
   function handleBookChapter() {
     setPubType("Book Chapter");
     setIsBookChapter(true);
     setIsConference(false);
     setIsJournal(false);
+    setIsAll(false);
+    setIsDataset(false);
+  }
+
+  function handleDataset() {
+    setPubType("Dataset");
+    setIsBookChapter(false);
+    setIsConference(false);
+    setIsJournal(false);
+    setIsDataset(true);
     setIsAll(false);
   }
 
@@ -75,7 +90,7 @@ const Publications = () => {
         "Tea leaf age quality: age-stratified tea leaf quality classification dataset",
       journal: "Data in Brief",
       quartiles: "Q2",
-      type: "Journal",
+      type: "Dataset",
       year: "2024",
       link: "https://doi.org/10.1016/j.dib.2024.110462",
       // img: j2,
@@ -356,7 +371,7 @@ const Publications = () => {
       journal: "Data in Brief",
       quartiles: "Q2",
 
-      type: "Journal",
+      type: "Dataset",
       year: "2021",
       link: "https://www.sciencedirect.com/science/article/pii/S2352340920315134",
       // img: icbase,
@@ -579,6 +594,14 @@ const Publications = () => {
               ).length
             }
             )
+          </button>
+
+          <button
+            className={isDataset ? "jbtn" : "jbtn2"}
+            type="button"
+            onClick={handleDataset}
+          >
+            Dataset( 2 )
           </button>
         </div>
         <div class="cads">
