@@ -40,7 +40,8 @@ const Publications = () => {
 
   const publications = [
     {
-      title: "Machine learning and deep learning for user authentication and authorization in cybersecurity: A state-of-the-art review",
+      title:
+        "Machine learning and deep learning for user authentication and authorization in cybersecurity: A state-of-the-art review",
       journal: "Computers & Security",
       quartiles: "Q1",
       type: "Journal",
@@ -57,8 +58,108 @@ const Publications = () => {
       link: "https://ieeexplore.ieee.org/abstract/document/10466536/",
       // img: j2,
     },
+
     {
-      title: "Palm Leaf Health Management: A Hybrid Approach for Automated Disease Detection and Therapy Enhancement",
+      title:
+        "Explainable AI approaches in deep learning: Advancements, applications and challenges",
+      journal: "Computers and Electrical Engineering",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://doi.org/10.1016/j.compeleceng.2024.109246",
+      // img: j2,
+    },
+
+    {
+      title:
+        "Tea leaf age quality: age-stratified tea leaf quality classification dataset",
+      journal: "Data in Brief",
+      quartiles: "Q2",
+      type: "Journal",
+      year: "2024",
+      link: "https://doi.org/10.1016/j.dib.2024.110462",
+      // img: j2,
+    },
+
+    {
+      title:
+        "A systematic review of deep learning data augmentation in medical imaging: Recent advances and future research directions",
+      journal: "Healthcare Analytics",
+      quartiles: "Q2",
+      type: "Journal",
+      year: "2024",
+      link: "https://doi.org/10.1016/j.health.2024.100340",
+      // img: j2,
+    },
+
+    {
+      title:
+        "Recent advancements and challenges of NLP-based sentiment analysis: A state-of-the-art review",
+      journal: "Natural Language Processing Journal",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://doi.org/10.1016/j.nlp.2024.100059",
+      // img: j2,
+    },
+
+    {
+      title:
+        "Generative Adversarial Networks (GANs) in Medical Imaging: Advancements, Applications and Challenges",
+      journal: "IEEE Access",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://ieeexplore.ieee.org/abstract/document/10445413",
+    },
+
+    {
+      title:
+        "Detection of COVID-19, Pneumonia, and Tuberculosis from Radiographs using AI-driven Knowledge Distillation",
+      journal: "Heliyon",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://www.cell.com/heliyon/pdf/S2405-8440(24)02832-9.pdf",
+      // img: j2,
+    },
+
+    {
+      title:
+        "A novel deep learning approach for contrail detection using image segmentation",
+      journal: "Plos one",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298160",
+      // img: j2,
+    },
+
+    {
+      title:
+        "A multimodal approach to cross-lingual sentiment analysis with ensemble of transformer and LLM",
+      journal: "Scientific Reports",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://www.nature.com/articles/s41598-024-60210-7",
+      // img: j2,
+    },
+
+    {
+      title:
+        "Deep learning for medical image segmentation: State-of-the-art advancements and challenges",
+      journal: "Informatics in Medicine Unlocked",
+      quartiles: "Q2",
+      type: "Journal",
+      year: "2024",
+      link: "https://doi.org/10.1016/j.imu.2024.101504",
+      // img: j2,
+    },
+
+    {
+      title:
+        "Palm Leaf Health Management: A Hybrid Approach for Automated Disease Detection and Therapy Enhancement",
       journal: "IEEE Access",
       quartiles: "Q1",
       type: "Journal",
@@ -67,7 +168,8 @@ const Publications = () => {
       // img: j3,
     },
     {
-      title: "Machine learning enabled IoT system for soil nutrients monitoring and crop recommendation",
+      title:
+        "Machine learning enabled IoT system for soil nutrients monitoring and crop recommendation",
       journal: "Journal of Agriculture and Food Research",
       quartiles: "Q1",
       type: "Journal",
@@ -76,7 +178,8 @@ const Publications = () => {
       // img: j3,
     },
     {
-      title: "Recurrent ALBERT for recommendation: A hybrid architecture for accurate and lightweight restaurant recommendations",
+      title:
+        "Recurrent ALBERT for recommendation: A hybrid architecture for accurate and lightweight restaurant recommendations",
       journal: "Cognitive Computation and Systems",
       type: "Journal",
       quartiles: "Q3",
@@ -95,7 +198,8 @@ const Publications = () => {
       // img: j5,
     },
     {
-      title: "Advancing Wildlife Protection: Mask R-CNN for Rail Track Identification and Unwanted Object Detection",
+      title:
+        "Advancing Wildlife Protection: Mask R-CNN for Rail Track Identification and Unwanted Object Detection",
       journal: "IEEE Access",
       type: "Journal",
       quartiles: "Q1",
@@ -105,7 +209,8 @@ const Publications = () => {
       // img: j6,
     },
     {
-      title: "An Unsupervised Writer Identification Based on Generating Clusterable Embeddings.",
+      title:
+        "An Unsupervised Writer Identification Based on Generating Clusterable Embeddings.",
       journal: "Computer Systems Science & Engineering",
       quartiles: "Q3",
 
@@ -115,7 +220,8 @@ const Publications = () => {
       // img: j7,
     },
     {
-      title: "Cardiac Failure Forecasting Based on Clinical Data Using a Lightweight Machine Learning Metamodel",
+      title:
+        "Cardiac Failure Forecasting Based on Clinical Data Using a Lightweight Machine Learning Metamodel",
       journal: "Diagnostics",
       quartiles: "Q2",
 
@@ -125,7 +231,8 @@ const Publications = () => {
       // img: j8,
     },
     {
-      title: "G-BERT: An Efficient Method for Identifying Hate Speech in Bengali Texts on Social Media",
+      title:
+        "G-BERT: An Efficient Method for Identifying Hate Speech in Bengali Texts on Social Media",
       journal: "IEEE Access",
       quartiles: "Q1",
 
@@ -135,7 +242,8 @@ const Publications = () => {
       // img: j8,
     },
     {
-      title: "Secure Your Steps: A Class-Based Ensemble Framework for Real-Time Fall Detection using Deep Neural Networks",
+      title:
+        "Secure Your Steps: A Class-Based Ensemble Framework for Real-Time Fall Detection using Deep Neural Networks",
       journal: "IEEE Access",
       quartiles: "Q1",
 
@@ -145,7 +253,8 @@ const Publications = () => {
       // img: j8,
     },
     {
-      title: "Deep Learning-Based IoT System for Remote Monitoring and Early Detection of Health Issues in Real-Time",
+      title:
+        "Deep Learning-Based IoT System for Remote Monitoring and Early Detection of Health Issues in Real-Time",
       journal: "Sensors",
       quartiles: "Q1",
 
@@ -155,7 +264,8 @@ const Publications = () => {
       // img: j8,
     },
     {
-      title: "Self-Writer: Clusterable Embedding Based Self-Supervised Writer Recognition from Unlabeled Data",
+      title:
+        "Self-Writer: Clusterable Embedding Based Self-Supervised Writer Recognition from Unlabeled Data",
       journal: "Mathematics",
       quartiles: "Q2",
 
@@ -165,7 +275,8 @@ const Publications = () => {
       // img: j8,
     },
     {
-      title: "A Comprehensive Survey on the Progress, Process, and Challenges of Lung Cancer Detection and Classification",
+      title:
+        "A Comprehensive Survey on the Progress, Process, and Challenges of Lung Cancer Detection and Classification",
       journal: "Journal of Healthcare Engineering",
       quartiles: "Q2",
 
@@ -175,7 +286,8 @@ const Publications = () => {
       // img: j8,
     },
     {
-      title: "How can we manage Offensive Text in Social Media-A Text Classification Approach using LSTM-BOOST",
+      title:
+        "How can we manage Offensive Text in Social Media-A Text Classification Approach using LSTM-BOOST",
       journal: "International Journal of Information Management Data Insights",
       quartiles: "Q2",
 
@@ -195,7 +307,8 @@ const Publications = () => {
       // img: j8,
     },
     {
-      title: "A Comprehensive Survey on the Detection, Classification, and Challenges of Neurological Disorders",
+      title:
+        "A Comprehensive Survey on the Detection, Classification, and Challenges of Neurological Disorders",
       journal: "Biology",
       quartiles: "Q1",
 
@@ -205,7 +318,8 @@ const Publications = () => {
       // img: j8,
     },
     {
-      title: "A survey of automatic text summarization: Progress, process and challenges",
+      title:
+        "A survey of automatic text summarization: Progress, process and challenges",
       journal: "IEEE Access",
       quartiles: "Q1",
 
@@ -215,7 +329,8 @@ const Publications = () => {
       // img: icbase,
     },
     {
-      title: "A Thresholded Gabor-CNN Based Writer Identification System for Indic Scripts",
+      title:
+        "A Thresholded Gabor-CNN Based Writer Identification System for Indic Scripts",
       journal: "IEEE Access",
       quartiles: "Q1",
 
@@ -225,7 +340,8 @@ const Publications = () => {
       // img: icbase,
     },
     {
-      title: "A survey of speaker recognition: Fundamental theories, recognition methods and opportunities",
+      title:
+        "A survey of speaker recognition: Fundamental theories, recognition methods and opportunities",
       journal: "IEEE Access",
       quartiles: "Q1",
 
@@ -235,7 +351,8 @@ const Publications = () => {
       // img: icbase,
     },
     {
-      title: "BanglaWriting: A multi-purpose offline Bangla handwriting dataset",
+      title:
+        "BanglaWriting: A multi-purpose offline Bangla handwriting dataset",
       journal: "Data in Brief",
       quartiles: "Q2",
 
@@ -256,8 +373,10 @@ const Publications = () => {
     },
 
     {
-      title: "Plant Disease Identification from Leaf Images using Deep CNN’s EfficientNet",
-      journal: "2022 International Conference on Decision Aid Sciences and Applications (DASA), Thailand (IEEE).",
+      title:
+        "Plant Disease Identification from Leaf Images using Deep CNN’s EfficientNet",
+      journal:
+        "2022 International Conference on Decision Aid Sciences and Applications (DASA), Thailand (IEEE).",
       quartiles: "",
 
       type: "Conference",
@@ -266,8 +385,10 @@ const Publications = () => {
       // img: j8,
     },
     {
-      title: "Assessment of Building Damage on Post-Hurricane Satellite Imagery using improved CNN",
-      journal: "2022 International Conference on Decision Aid Sciences and Applications (DASA), Thailand (IEEE).",
+      title:
+        "Assessment of Building Damage on Post-Hurricane Satellite Imagery using improved CNN",
+      journal:
+        "2022 International Conference on Decision Aid Sciences and Applications (DASA), Thailand (IEEE).",
       quartiles: "",
 
       type: "Conference",
@@ -277,8 +398,10 @@ const Publications = () => {
     },
 
     {
-      title: "Heart Disease Prediction and Analysis Using Ensemble Architecture",
-      journal: "2022 International Conference on Decision Aid Sciences and Applications (DASA)",
+      title:
+        "Heart Disease Prediction and Analysis Using Ensemble Architecture",
+      journal:
+        "2022 International Conference on Decision Aid Sciences and Applications (DASA)",
       quartiles: "",
 
       type: "Conference",
@@ -287,8 +410,10 @@ const Publications = () => {
       // img: icbase,
     },
     {
-      title: "Road Sign Detection Using Variants of YOLO and R-CNN: An Analysis from the Perspective of Bangladesh",
-      journal: "Proceedings of the International Conference on Big Data, IoT, and Machine Learning: BIM 2021, Springer Singapore (Bangladesh).",
+      title:
+        "Road Sign Detection Using Variants of YOLO and R-CNN: An Analysis from the Perspective of Bangladesh",
+      journal:
+        "Proceedings of the International Conference on Big Data, IoT, and Machine Learning: BIM 2021, Springer Singapore (Bangladesh).",
       quartiles: "",
 
       type: "Conference",
@@ -297,8 +422,10 @@ const Publications = () => {
       // img: icbase,
     },
     {
-      title: "Forecasting Closing Price of Stock Market Using LSTM Network: An Analysis from the Perspective of Dhaka Stock Exchange",
-      journal: "Proceedings of the International Conference on Big Data, IoT, and Machine Learning: BIM 2021, Springer Singapore (Bangladesh).",
+      title:
+        "Forecasting Closing Price of Stock Market Using LSTM Network: An Analysis from the Perspective of Dhaka Stock Exchange",
+      journal:
+        "Proceedings of the International Conference on Big Data, IoT, and Machine Learning: BIM 2021, Springer Singapore (Bangladesh).",
       quartiles: "",
 
       type: "Conference",
@@ -307,8 +434,10 @@ const Publications = () => {
       // img: icbase,
     },
     {
-      title: "Forecasting Closing Price of Stock Market Using LSTM Network: An Analysis from the Perspective of Dhaka Stock Exchange",
-      journal: "Proceedings of the International Conference on Big Data, IoT, and Machine Learning: BIM 2021, Bangladesh (Springer Nature)",
+      title:
+        "Forecasting Closing Price of Stock Market Using LSTM Network: An Analysis from the Perspective of Dhaka Stock Exchange",
+      journal:
+        "Proceedings of the International Conference on Big Data, IoT, and Machine Learning: BIM 2021, Bangladesh (Springer Nature)",
       quartiles: "",
 
       type: "Conference",
@@ -317,8 +446,10 @@ const Publications = () => {
       // img: icbase,
     },
     {
-      title: "An Offline Writer-independent Signature Verification System using AutoEmbedder",
-      journal: "2021 24th International Conference on Computer and Information Technology (ICCIT), Bangladesh (IEEE).",
+      title:
+        "An Offline Writer-independent Signature Verification System using AutoEmbedder",
+      journal:
+        "2021 24th International Conference on Computer and Information Technology (ICCIT), Bangladesh (IEEE).",
       quartiles: "",
 
       type: "Conference",
@@ -327,8 +458,10 @@ const Publications = () => {
       // img: icbase,
     },
     {
-      title: "Cnn-nsvm architecture for skin lesion classification using non-dermoscopic digital image",
-      journal: "2021 Joint 10th International Conference on Informatics, Electronics & Vision (ICIEV) and 2021 5th International Conference on Imaging, Vision & Pattern Recognition (icIVPR), Japan (IEEE).",
+      title:
+        "Cnn-nsvm architecture for skin lesion classification using non-dermoscopic digital image",
+      journal:
+        "2021 Joint 10th International Conference on Informatics, Electronics & Vision (ICIEV) and 2021 5th International Conference on Imaging, Vision & Pattern Recognition (icIVPR), Japan (IEEE).",
       quartiles: "",
 
       type: "Conference",
@@ -338,7 +471,8 @@ const Publications = () => {
     },
     {
       title: "Facial Expression Recognition Using CNN-LSTM Approach",
-      journal: "2021 International Conference on Science & Contemporary Technologies (ICSCT), Bangladesh (IEEE)",
+      journal:
+        "2021 International Conference on Science & Contemporary Technologies (ICSCT), Bangladesh (IEEE)",
       quartiles: "",
 
       type: "Conference",
@@ -348,7 +482,8 @@ const Publications = () => {
     },
     {
       title: "Human Abnormality Classification Using Combined CNN-RNN Approach",
-      journal: "2020 IEEE 17th International Conference on Smart Communities: Improving Quality of Life Using ICT, IoT and AI (HONET), USA (IEEE)",
+      journal:
+        "2020 IEEE 17th International Conference on Smart Communities: Improving Quality of Life Using ICT, IoT and AI (HONET), USA (IEEE)",
       quartiles: "",
 
       type: "Conference",
@@ -358,7 +493,8 @@ const Publications = () => {
     },
     {
       title: "An Evolution of CNN Object Classifiers on Low-Resolution Images",
-      journal: "2020 IEEE 17th International Conference on Smart Communities: Improving Quality of Life Using ICT, IoT and AI (HONET), USA (IEEE)",
+      journal:
+        "2020 IEEE 17th International Conference on Smart Communities: Improving Quality of Life Using ICT, IoT and AI (HONET), USA (IEEE)",
       quartiles: "",
 
       type: "Conference",
@@ -367,8 +503,10 @@ const Publications = () => {
       // img: icbase,
     },
     {
-      title: "IoT based Health monitoring & automated predictive system to confront COVID-19",
-      journal: "2020 IEEE 17th International Conference on Smart Communities: Improving Quality of Life Using ICT, IoT and AI (HONET), USA (IEEE)",
+      title:
+        "IoT based Health monitoring & automated predictive system to confront COVID-19",
+      journal:
+        "2020 IEEE 17th International Conference on Smart Communities: Improving Quality of Life Using ICT, IoT and AI (HONET), USA (IEEE)",
       quartiles: "",
 
       type: "Conference",
@@ -377,8 +515,10 @@ const Publications = () => {
       // img: icbase,
     },
     {
-      title: "A Multi-Plant Disease Diagnosis Method using Convolutional Neural Network",
-      journal: "Computer Vision and Machine Learning in Agriculture, Springer, Singapore",
+      title:
+        "A Multi-Plant Disease Diagnosis Method using Convolutional Neural Network",
+      journal:
+        "Computer Vision and Machine Learning in Agriculture, Springer, Singapore",
       quartiles: "",
 
       type: "Book Chapter",
@@ -394,19 +534,51 @@ const Publications = () => {
       </header>
       <section class="timeline">
         <div className="jinfo pb">
-          <button className={isAll ? "jbtn" : "jbtn2"} type="button" onClick={handleAll}>
+          <button
+            className={isAll ? "jbtn" : "jbtn2"}
+            type="button"
+            onClick={handleAll}
+          >
             All({publications.map((publication) => publication.type).length} )
           </button>
-          <button className={isJournal ? "jbtn" : "jbtn2"} type="button" onClick={handleJournal}>
+          <button
+            className={isJournal ? "jbtn" : "jbtn2"}
+            type="button"
+            onClick={handleJournal}
+          >
             Journal(
-            {publications.filter((publication) => publication.type === "Journal").length})
+            {
+              publications.filter(
+                (publication) => publication.type === "Journal"
+              ).length
+            }
+            )
           </button>
-          <button className={isConference ? "jbtn" : "jbtn2"} type="button" onClick={handleConference}>
-            Conference( {publications.filter((publication) => publication.type === "Conference").length})
+          <button
+            className={isConference ? "jbtn" : "jbtn2"}
+            type="button"
+            onClick={handleConference}
+          >
+            Conference({" "}
+            {
+              publications.filter(
+                (publication) => publication.type === "Conference"
+              ).length
+            }
+            )
           </button>
-          <button className={isBookChapter ? "jbtn" : "jbtn2"} type="button" onClick={handleBookChapter}>
+          <button
+            className={isBookChapter ? "jbtn" : "jbtn2"}
+            type="button"
+            onClick={handleBookChapter}
+          >
             Book Chapter(
-            {publications.filter((publication) => publication.type === "Book Chapter").length})
+            {
+              publications.filter(
+                (publication) => publication.type === "Book Chapter"
+              ).length
+            }
+            )
           </button>
         </div>
         <div class="cads">
@@ -416,11 +588,18 @@ const Publications = () => {
                 <div className="jlist">
                   <div className="jitem">
                     <div className="flex"></div>({publication.year}){" "}
-                    <a href={publication.link} className="text-link" target="_blank">
+                    <a
+                      href={publication.link}
+                      className="text-link"
+                      target="_blank"
+                    >
                       {publication.title}
                     </a>
                     <br />
-                    {publication.journal} {publication.type == "Journal" && <>({publication.quartiles})</>}
+                    {publication.journal}{" "}
+                    {publication.type == "Journal" && (
+                      <>({publication.quartiles})</>
+                    )}
                     <div className="author"></div>
                   </div>
                 </div>
