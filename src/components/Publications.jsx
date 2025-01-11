@@ -494,18 +494,17 @@ const Publications = () => {
       // img: icbase,
     },
 
-    {
-      title:
-        "Plant Disease Identification from Leaf Images using Deep CNN’s EfficientNet",
-      journal:
-        "2022 International Conference on Decision Aid Sciences and Applications (DASA), Thailand (IEEE).",
-      quartiles: "",
-
-      type: "Conference",
-      year: "2022",
-      link: "https://ieeexplore.ieee.org/abstract/document/9765063",
+    //{
+      //title:
+        //"Plant Disease Identification from Leaf Images using Deep CNN’s EfficientNet",
+      //journal:
+        //"2022 International Conference on Decision Aid Sciences and Applications (DASA), Thailand (IEEE).",
+      //quartiles: "",
+      //type: "Conference",
+      //year: "2022",
+      //link: "https://ieeexplore.ieee.org/abstract/document/9765063",
       // img: j8,
-    },
+    //},
     {
       title:
         "Assessment of Building Damage on Post-Hurricane Satellite Imagery using improved CNN",
@@ -545,14 +544,14 @@ const Publications = () => {
     },
     {
       title:
-        "Forecasting Closing Price of Stock Market Using LSTM Network: An Analysis from the Perspective of Dhaka Stock Exchange",
+        "An Integrative Machine Learning Strategy for the Prognosis of Heart Disease",
       journal:
-        "Proceedings of the International Conference on Big Data, IoT, and Machine Learning: BIM 2021, Springer Singapore (Bangladesh).",
+        "International Conference on Advances in Information Communication Technology & Computing.",
       quartiles: "",
 
       type: "Conference",
-      year: "2022",
-      link: "https://link.springer.com/chapter/10.1007/978-981-16-6636-0_23",
+      year: "2024",
+      link: "https://link.springer.com/chapter/10.1007/978-981-97-6103-6_1",
       // img: icbase,
     },
     {
