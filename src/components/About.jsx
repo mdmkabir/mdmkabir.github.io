@@ -4,6 +4,7 @@ import robot from "../assets/images/robot.svg";
 import computer from "../assets/images/computer.png";
 import travel from "../assets/images/travel.svg";
 import girona from "../assets/images/girona1.png";
+import mdu from "../assets/images/mdu.png";
 import eot from "../assets/images/eot1.jpg";
 import bubt from "../assets/images/bubt1.png";
 import aml from "../assets/images/aml.jpeg";
@@ -125,6 +126,25 @@ const About = () => {
         <h3 class="h3 testimonials-title">Academic Involvements</h3>
 
         <ul class="testimonials-list has-scrollbar">
+
+        <li class="testimonials-item">
+            <div class="content-card unicard" data-testimonials-item>
+              <figure class="testimonials-avatar-box">
+                <img class="rounded-img" src={mdu} alt="MDU" width="60" data-testimonials-avatar />
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-testimonials-title>
+              Mälardalens University, Sweden
+              </h4>
+
+              <div class="testimonials-text" data-testimonials-text>
+                <p>
+                  <b>PhD in Computer Science (HeatTrack: Enhanced Reliability, Monitoring and Diagnostics of Complex Cooling Systems through Advanced Thermal Management)</b>
+                </p>
+              </div>
+            </div>
+          </li>
+
           <li class="testimonials-item">
             <div class="content-card unicard" data-testimonials-item>
               <figure class="testimonials-avatar-box">
