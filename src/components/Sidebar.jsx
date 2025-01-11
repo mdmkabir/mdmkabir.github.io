@@ -21,7 +21,12 @@ const Sidebar = () => {
     <aside class="sidebar active" data-sidebar>
       <div class="sidebar-info">
         <figure class="avatar-box">
-          <img src={mkabir} className="rounded-img crop" alt="Md Mohsin Kabir" width="80" />
+          <img
+            src={mkabir}
+            className="rounded-img crop"
+            alt="Md Mohsin Kabir"
+            width="80"
+          />
         </figure>
 
         <div class="info-content">
@@ -32,7 +37,11 @@ const Sidebar = () => {
           <p class="title">AI Researcher</p>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn onClick={handleShowContacts}>
+        <button
+          class="info_more-btn"
+          data-sidebar-btn
+          onClick={handleShowContacts}
+        >
           <span>Show Contacts</span>
 
           <ion-icon name="chevron-down"></ion-icon>
@@ -101,24 +110,40 @@ const Sidebar = () => {
 
           <ul class="social-list">
             <li class="social-item">
-              <a target="_blank" href="https://www.linkedin.com/in/mohsinkabir-ai/" class="social-link">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/mohsinkabir-ai/"
+                class="social-link"
+              >
                 <FontAwesomeIcon icon="fa-brands fa-linkedin" />
               </a>
             </li>
 
             <li class="social-item">
-              <a target="_blank" href="https://scholar.google.com/citations?user=4W1u1KMAAAAJ" class="social-link">
+              <a
+                target="_blank"
+                href="https://scholar.google.com/citations?user=4W1u1KMAAAAJ"
+                class="social-link"
+              >
                 <FontAwesomeIcon icon="fa-brands fa-google-scholar" />
               </a>
             </li>
 
             <li class="social-item">
-              <a target="_blank" href="https://www.researchgate.net/profile/Md-Kabir-152" class="social-link">
+              <a
+                target="_blank"
+                href="https://www.researchgate.net/profile/Md-Kabir-152"
+                class="social-link"
+              >
                 <FontAwesomeIcon icon="fa-brands fa-researchgate" />
               </a>
             </li>
             <li class="social-item">
-              <a target="_blank" href="https://orcid.org/my-orcid?orcid=0000-0001-9624-5499" class="social-link">
+              <a
+                target="_blank"
+                href="https://orcid.org/my-orcid?orcid=0000-0001-9624-5499"
+                class="social-link"
+              >
                 <FontAwesomeIcon icon="fa-brands fa-orcid" />
               </a>
             </li>
@@ -130,7 +155,12 @@ const Sidebar = () => {
     <aside class="sidebar" data-sidebar>
       <div class="sidebar-info">
         <figure class="avatar-box">
-          <img src={mkabir} className="rounded-img crop" alt="Md Mohsin Kabir" width="80" />
+          <img
+            src={mkabir}
+            className="rounded-img crop"
+            alt="Md Mohsin Kabir"
+            width="80"
+          />
         </figure>
 
         <div class="info-content">
@@ -141,7 +171,11 @@ const Sidebar = () => {
           <p class="title">AI Researcher</p>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn onClick={handleShowContacts}>
+        <button
+          class="info_more-btn"
+          data-sidebar-btn
+          onClick={handleShowContacts}
+        >
           <span>Show Contacts</span>
 
           <ion-icon name="chevron-down"></ion-icon>
@@ -161,8 +195,8 @@ const Sidebar = () => {
               <div class="contact-info">
                 <p class="contact-title">Email</p>
 
-                <a href="mailto:mdmkabi@gmail.com" class="contact-link">
-                  mdmkabi@gmail.com
+                <a href="mailto:md.mohsin.kabir@mdu.se" class="contact-link">
+                  md.mohsin.kabir@mdu.se
                 </a>
               </div>
             </li>
@@ -175,8 +209,8 @@ const Sidebar = () => {
               <div class="contact-info">
                 <p class="contact-title">Phone</p>
 
-                <a href="tel:+34645272458" class="contact-link">
-                  +34 645272458
+                <a href="tel:+46739785052" class="contact-link">
+                  +46739785052
                 </a>
               </div>
             </li>
@@ -189,7 +223,7 @@ const Sidebar = () => {
               <div class="contact-info">
                 <p class="contact-title">Location</p>
 
-                <address>Budapest-1027, Hungary</address>
+                <address>Västerås, Sweden</address>
               </div>
             </li>
 
@@ -210,24 +244,40 @@ const Sidebar = () => {
 
           <ul class="social-list">
             <li class="social-item">
-              <a target="_blank" href="https://www.linkedin.com/in/mohsinkabir-ai/" class="social-link">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/mohsinkabir-ai/"
+                class="social-link"
+              >
                 <FontAwesomeIcon icon="fa-brands fa-linkedin" />
               </a>
             </li>
 
             <li class="social-item">
-              <a target="_blank" href="https://scholar.google.com/citations?user=4W1u1KMAAAAJ" class="social-link">
+              <a
+                target="_blank"
+                href="https://scholar.google.com/citations?user=4W1u1KMAAAAJ"
+                class="social-link"
+              >
                 <FontAwesomeIcon icon="fa-brands fa-google-scholar" />
               </a>
             </li>
 
             <li class="social-item">
-              <a target="_blank" href="https://www.researchgate.net/profile/Md-Kabir-152" class="social-link">
+              <a
+                target="_blank"
+                href="https://www.researchgate.net/profile/Md-Kabir-152"
+                class="social-link"
+              >
                 <FontAwesomeIcon icon="fa-brands fa-researchgate" />
               </a>
             </li>
             <li class="social-item">
-              <a target="_blank" href="https://orcid.org/my-orcid?orcid=0000-0001-9624-5499" class="social-link">
+              <a
+                target="_blank"
+                href="https://orcid.org/my-orcid?orcid=0000-0001-9624-5499"
+                class="social-link"
+              >
                 <FontAwesomeIcon icon="fa-brands fa-orcid" />
               </a>
             </li>
