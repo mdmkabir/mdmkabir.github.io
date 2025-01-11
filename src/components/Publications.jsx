@@ -133,6 +133,36 @@ const Publications = () => {
     },
     {
       title:
+        "SegX-Net: A novel image segmentation approach for contrail detection using deep learning",
+      journal: "PLOS One",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298160",
+      // img: j1,
+    },
+    {
+      title:
+        "Advancing low‐light object detection with you only look once models: An empirical study and performance evaluation",
+      journal: "Cognitive Computation and Systems",
+      quartiles: "Q3",
+      type: "Journal",
+      year: "2024",
+      link: "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/ccs2.12114",
+      // img: j1,
+    },
+    {
+      title:
+        "Toward Trustworthy Metaverse: Advancements and Challenges",
+      journal: "IEEE Access",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2023",
+      link: "https://ieeexplore.ieee.org/document/10288438",
+      // img: j1,
+    },
+    {
+      title:
         "Machine learning and deep learning for user authentication and authorization in cybersecurity: A state-of-the-art review",
       journal: "Computers & Security",
       quartiles: "Q1",
