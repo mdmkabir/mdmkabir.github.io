@@ -1,57 +1,14 @@
-import { set } from "firebase/database";
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 
 const Publications = () => {
-  const [pubType, setPubType] = React.useState("All");
+  const [pubType, setPubType] = useState("All");
   const [isAll, setIsAll] = useState(true);
   const [isJournal, setIsJournal] = useState(false);
   const [isConference, setIsConference] = useState(false);
   const [isBookChapter, setIsBookChapter] = useState(false);
   const [isDataset, setIsDataset] = useState(false);
-
-  function handleAll() {
-    setPubType("All");
-    setIsAll(true);
-    setIsJournal(false);
-    setIsConference(false);
-    setIsBookChapter(false);
-    setIsDataset(false);
-  }
-
-  function handleJournal() {
-    setPubType("Journal");
-    setIsJournal(true);
-    setIsConference(false);
-    setIsBookChapter(false);
-    setIsAll(false);
-    setIsDataset(false);
-  }
-  function handleConference() {
-    setPubType("Conference");
-    setIsConference(true);
-    setIsJournal(false);
-    setIsBookChapter(false);
-    setIsAll(false);
-    setIsDataset(false);
-  }
-  function handleBookChapter() {
-    setPubType("Book Chapter");
-    setIsBookChapter(true);
-    setIsConference(false);
-    setIsJournal(false);
-    setIsAll(false);
-    setIsDataset(false);
-  }
-
-  function handleDataset() {
-    setPubType("Dataset");
-    setIsBookChapter(false);
-    setIsConference(false);
-    setIsJournal(false);
-    setIsDataset(true);
-    setIsAll(false);
-  }
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedYear, setSelectedYear] = useState("All");
 
   const publications = [
     {
@@ -542,19 +499,105 @@ const Publications = () => {
       // img: bc,
     },
   ];
+
+  // Get unique years from publications
+  const years = ["All", ...new Set(publications.map((pub) => pub.year))].sort(
+    (a, b) => b - a
+  );
+
+  function handleAll() {
+    setPubType("All");
+    setIsAll(true);
+    setIsJournal(false);
+    setIsConference(false);
+    setIsBookChapter(false);
+    setIsDataset(false);
+  }
+
+  function handleJournal() {
+    setPubType("Journal");
+    setIsJournal(true);
+    setIsConference(false);
+    setIsBookChapter(false);
+    setIsAll(false);
+    setIsDataset(false);
+  }
+
+  function handleConference() {
+    setPubType("Conference");
+    setIsConference(true);
+    setIsJournal(false);
+    setIsBookChapter(false);
+    setIsAll(false);
+    setIsDataset(false);
+  }
+
+  function handleBookChapter() {
+    setPubType("Book Chapter");
+    setIsBookChapter(true);
+    setIsConference(false);
+    setIsJournal(false);
+    setIsAll(false);
+    setIsDataset(false);
+  }
+
+  function handleDataset() {
+    setPubType("Dataset");
+    setIsBookChapter(false);
+    setIsConference(false);
+    setIsJournal(false);
+    setIsDataset(true);
+    setIsAll(false);
+  }
+
+  // Filter publications based on type, search query, and year
+  const filteredPublications = publications.filter((publication) => {
+    const matchesType = pubType === "All" || publication.type === pubType;
+    const matchesSearch =
+      !searchQuery ||
+      publication.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      publication.journal.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesYear =
+      selectedYear === "All" || publication.year === selectedYear;
+    return matchesType && matchesSearch && matchesYear;
+  });
+
   return (
     <div>
       <header>
-        <h2 class="h2 article-title">Publications</h2>
+        <h2 className="h2 article-title">Publications</h2>
       </header>
-      <section class="timeline">
+
+      <section className="timeline">
+        {/* Search and Sort Controls */}
+        <div className="mb-4 flex flex-wrap gap-4">
+          <input
+            type="text"
+            placeholder="Search publications..."
+            className="passwd-inp"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+          <select
+            className="select-primary"
+            value={selectedYear}
+            onChange={(e) => setSelectedYear(e.target.value)}
+          >
+            {years.map((year) => (
+              <option key={year} value={year}>
+                {year === "All" ? "All Years" : year}
+              </option>
+            ))}
+          </select>
+        </div>
+
         <div className="jinfo pb">
           <button
             className={isAll ? "jbtn" : "jbtn2"}
             type="button"
             onClick={handleAll}
           >
-            All({publications.map((publication) => publication.type).length} )
+            All({filteredPublications.length})
           </button>
           <button
             className={isJournal ? "jbtn" : "jbtn2"}
@@ -574,7 +617,7 @@ const Publications = () => {
             type="button"
             onClick={handleConference}
           >
-            Conference({" "}
+            Conference(
             {
               publications.filter(
                 (publication) => publication.type === "Conference"
@@ -595,69 +638,49 @@ const Publications = () => {
             }
             )
           </button>
-
           <button
             className={isDataset ? "jbtn" : "jbtn2"}
             type="button"
             onClick={handleDataset}
           >
-            Dataset( 2 )
+            Dataset(
+            {
+              publications.filter(
+                (publication) => publication.type === "Dataset"
+              ).length
+            }
+            )
           </button>
         </div>
-        <div class="cads">
-          {publications.map((publication) =>
-            pubType === publication.type || pubType == "All" ? (
-              <>
-                <div className="jlist">
-                  <div className="jitem">
-                    <div className="flex"></div>({publication.year}){" "}
-                    <a
-                      href={publication.link}
-                      className="text-link"
-                      target="_blank"
-                    >
-                      {publication.title}
-                    </a>
-                    <br />
-                    {publication.journal}{" "}
-                    {publication.type == "Journal" && (
-                      <>({publication.quartiles})</>
-                    )}
-                    <div className="author"></div>
-                  </div>
+
+        <div className="cads">
+          {filteredPublications.length > 0 ? (
+            filteredPublications.map((publication, index) => (
+              <div key={index} className="jlist">
+                <div className="jitem">
+                  <div className="flex"></div>({publication.year}){" "}
+                  <a
+                    href={publication.link}
+                    className="text-link"
+                    target="_blank"
+                  >
+                    {publication.title}
+                  </a>
+                  <br />
+                  {publication.journal}{" "}
+                  {publication.type === "Journal" && (
+                    <>({publication.quartiles})</>
+                  )}
+                  <div className="author"></div>
                 </div>
-                {/* <div class="card">
-                  <a href={publication.link} target="_blank" rel="noopener noreferrer">
-                    <img id="hover" src={publication.img} alt="Hot air balloons" />
-                    <div id="stuff">{publication.journal}</div>
-                    <div class="card-item">
-                      <div class="title">{publication.title}</div>
-                      <div className="">
-                        <div class="year">{publication.year}</div>
-                      </div>
-                    </div>
-                  </a>
-                </div> */}
-              </>
-            ) : pubType === "" ? (
-              <>
-                {/* <div class="card">
-                  <a href={publication.link} target="_blank" rel="noopener noreferrer">
-                    <img id="hover" src={publication.img} alt="Hot air balloons" />
-                    <div id="stuff">{publication.journal}</div>
-                    <div class="card-item">
-                      <div class="title">{publication.title}</div>
-                      <div className="">
-                        <div class="year">{publication.year}</div>
-                      </div>
-                    </div>
-                  </a>
-                </div> */}
-              </>
-            ) : null
+              </div>
+            ))
+          ) : (
+            <div className="text-center text-primary py-5">
+              No publications found matching your criteria.
+            </div>
           )}
         </div>
-        {/* <div className="alert2 text-center mt">Rest of the publications will be added soon.</div> */}
       </section>
     </div>
   );
