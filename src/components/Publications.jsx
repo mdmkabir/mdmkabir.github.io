@@ -13,6 +13,126 @@ const Publications = () => {
   const publications = [
     {
       title:
+        "Musical Genre Classification using Advanced Audio Analysis and Deep Learning Techniques",
+      journal: "IEEE Open Journal of the Computer Society",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://ieeexplore.ieee.org/abstract/document/10605044",
+      // img: j1,
+    },
+    {
+      title:
+        "DenseNet201Plus: Cost-effective transfer-learning architecture for rapid leaf disease identification with attention mechanisms",
+      journal: "Heliyon",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://www.cell.com/heliyon/fulltext/S2405-8440(24)11656-8",
+      // img: j1,
+    },
+    {
+      title:
+        "Deep Learning and Computer Vision Techniques for Enhanced Quality Control in Manufacturing Processes",
+      journal: "IEEE Access",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://ieeexplore.ieee.org/abstract/document/10663422",
+      // img: j1,
+    },
+    {
+      title:
+        "Machine learning-driven IoT device for women’s safety: a real-time sexual harassment prevention system",
+      journal: "Multimedia Tools and Applications",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://link.springer.com/article/10.1007/s11042-024-20228-5",
+      // img: j1,
+    },
+    {
+      title:
+        "tRF-BERT: A transformative approach to aspect-based sentiment analysis in the bengali language",
+      journal: "PloS one",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0308050",
+      // img: j1,
+    },
+    {
+      title:
+        "Enhancing road traffic flow in sustainable cities through transformer models: Advancements and challenges",
+      journal: "Sustainable Cities and Society",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://www.sciencedirect.com/science/article/abs/pii/S2210670724007066",
+      // img: j1,
+    },
+    {
+      title:
+        "Deep learning-based natural language processing in human-agent interaction: Applications, advancements and challenges",
+      journal: "Natural Language Processing Journal",
+      quartiles: "Q4",
+      type: "Journal",
+      year: "2024",
+      link: "https://www.sciencedirect.com/science/article/pii/S2949719124000608",
+      // img: j1,
+    },
+    {
+      title:
+        "A systematic review of UAV and AI integration for targeted disease detection, weed management, and pest control in precision agriculture",
+      journal: "Smart Agricultural Technology",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://www.sciencedirect.com/science/article/pii/S2772375524002521",
+      // img: j1,
+    },
+    {
+      title:
+        "Development of a cutting-edge ensemble pipeline for rapid and accurate diagnosis of plant leaf diseases",
+      journal: "Artificial Intelligence in Agriculture",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://www.sciencedirect.com/science/article/pii/S2589721724000394",
+      // img: j1,
+    },
+    {
+      title:
+        "XAI-FruitNet: An explainable deep model for accurate fruit classification",
+      journal: "Journal of Agriculture and Food Research",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2024",
+      link: "https://www.sciencedirect.com/science/article/pii/S2666154324005118",
+      // img: j1,
+    },
+    {
+      title:
+        "Terrain detection and segmentation for autonomous vehicle navigation: A state-of-the-art systematic review",
+      journal: "Information Fusion",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2025",
+      link: "https://www.sciencedirect.com/science/article/pii/S1566253524004226",
+      // img: j1,
+    },
+    {
+      title:
+        "Computer vision algorithms in healthcare: Recent advancements and future challenges",
+      journal: "Computers in Biology and Medicine",
+      quartiles: "Q1",
+      type: "Journal",
+      year: "2025",
+      link: "https://www.sciencedirect.com/science/article/abs/pii/S0010482524016160",
+      // img: j1,
+    },
+    {
+      title:
         "Machine learning and deep learning for user authentication and authorization in cybersecurity: A state-of-the-art review",
       journal: "Computers & Security",
       quartiles: "Q1",
@@ -496,6 +616,28 @@ const Publications = () => {
       type: "Book Chapter",
       year: "2021",
       link: "https://link.springer.com/chapter/10.1007/978-981-33-6424-0_7",
+      // img: bc,
+    },
+    {
+      title:
+        "Domain Adaptation in Medical Imaging: Evaluating the Effectiveness of Transfer Learning",
+      journal:
+        "Data-Driven Clinical Decision-Making Using Deep Learning in Imaging, Springer, Singapore",
+      quartiles: "",
+      type: "Book Chapter",
+      year: "2024",
+      link: "https://link.springer.com/chapter/10.1007/978-981-97-3966-0_1",
+      // img: bc,
+    },
+    {
+      title:
+        "Advancing Breast Cancer Diagnosis: Attention-Enhanced U-Net for Breast Cancer Segmentation",
+      journal:
+        "Data-Driven Clinical Decision-Making Using Deep Learning in Imaging, Springer, Singapore",
+      quartiles: "",
+      type: "Book Chapter",
+      year: "2024",
+      link: "https://link.springer.com/chapter/10.1007/978-981-97-3966-0_11",
       // img: bc,
     },
   ];
