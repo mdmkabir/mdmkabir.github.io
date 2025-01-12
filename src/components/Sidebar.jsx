@@ -61,8 +61,8 @@ const Sidebar = () => {
               <div class="contact-info">
                 <p class="contact-title">Email</p>
 
-                <a href="mailto:mdmkabi@gmail.com" class="contact-link">
-                  mdmkabi@gmail.com
+                <a href="mailto:md.mohsin.kabir@mdu.se" class="contact-link">
+                  md.mohsin.kabir@mdu.se
                 </a>
               </div>
             </li>
@@ -76,7 +76,7 @@ const Sidebar = () => {
                 <p class="contact-title">Phone</p>
 
                 <a href="tel:+34645272458" class="contact-link">
-                  +34 645272458
+                  +46739785052
                 </a>
               </div>
             </li>
@@ -89,7 +89,7 @@ const Sidebar = () => {
               <div class="contact-info">
                 <p class="contact-title">Location</p>
 
-                <address>Budapest-1027, Hungary</address>
+                <address>Västerås, Sweden</address>
               </div>
             </li>
 
