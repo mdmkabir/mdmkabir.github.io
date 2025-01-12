@@ -152,8 +152,7 @@ const Publications = () => {
       // img: j1,
     },
     {
-      title:
-        "Toward Trustworthy Metaverse: Advancements and Challenges",
+      title: "Toward Trustworthy Metaverse: Advancements and Challenges",
       journal: "IEEE Access",
       quartiles: "Q1",
       type: "Journal",
@@ -495,15 +494,15 @@ const Publications = () => {
     },
 
     //{
-      //title:
-        //"Plant Disease Identification from Leaf Images using Deep CNN’s EfficientNet",
-      //journal:
-        //"2022 International Conference on Decision Aid Sciences and Applications (DASA), Thailand (IEEE).",
-      //quartiles: "",
-      //type: "Conference",
-      //year: "2022",
-      //link: "https://ieeexplore.ieee.org/abstract/document/9765063",
-      // img: j8,
+    //title:
+    //"Plant Disease Identification from Leaf Images using Deep CNN’s EfficientNet",
+    //journal:
+    //"2022 International Conference on Decision Aid Sciences and Applications (DASA), Thailand (IEEE).",
+    //quartiles: "",
+    //type: "Conference",
+    //year: "2022",
+    //link: "https://ieeexplore.ieee.org/abstract/document/9765063",
+    // img: j8,
     //},
     {
       title:
@@ -768,16 +767,16 @@ const Publications = () => {
             type="button"
             onClick={handleAll}
           >
-            All({filteredPublications.length})
+            All ({filteredPublications.length})
           </button>
           <button
             className={isJournal ? "jbtn" : "jbtn2"}
             type="button"
             onClick={handleJournal}
           >
-            Journal(
+            Journal (
             {
-              publications.filter(
+              filteredPublications.filter(
                 (publication) => publication.type === "Journal"
               ).length
             }
@@ -788,9 +787,9 @@ const Publications = () => {
             type="button"
             onClick={handleConference}
           >
-            Conference(
+            Conference (
             {
-              publications.filter(
+              filteredPublications.filter(
                 (publication) => publication.type === "Conference"
               ).length
             }
@@ -801,9 +800,9 @@ const Publications = () => {
             type="button"
             onClick={handleBookChapter}
           >
-            Book Chapter(
+            Book Chapter (
             {
-              publications.filter(
+              filteredPublications.filter(
                 (publication) => publication.type === "Book Chapter"
               ).length
             }
@@ -814,9 +813,9 @@ const Publications = () => {
             type="button"
             onClick={handleDataset}
           >
-            Dataset(
+            Dataset (
             {
-              publications.filter(
+              filteredPublications.filter(
                 (publication) => publication.type === "Dataset"
               ).length
             }
