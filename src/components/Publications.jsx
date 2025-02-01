@@ -43,6 +43,16 @@ const Publications = () => {
     },
     {
       title:
+        "A systematic review of single-cell RNA sequencing applications and innovations",
+      journal: "Computational Biology and Chemistry",
+      quartiles: "Q2",
+      type: "Journal",
+      year: "2025",
+      link: "https://www.sciencedirect.com/science/article/abs/pii/S1476927125000222",
+      // img: j1,
+    },
+    {
+      title:
         "Machine learning-driven IoT device for women’s safety: a real-time sexual harassment prevention system",
       journal: "Multimedia Tools and Applications",
       quartiles: "Q1",
@@ -227,6 +237,16 @@ const Publications = () => {
 
     {
       title:
+        "Advanced Sleep Disorder Detection Using Multi-Layered Ensemble Learning and Advanced Data Balancing Techniques",
+      journal: "Frontiers in Artificial Intelligence",
+      quartiles: "Q2",
+      type: "Journal",
+      year: "2025",
+      link: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1506770/full",
+    },
+
+    {
+      title:
         "Generative Adversarial Networks (GANs) in Medical Imaging: Advancements, Applications and Challenges",
       journal: "IEEE Access",
       quartiles: "Q1",
@@ -234,7 +254,7 @@ const Publications = () => {
       year: "2024",
       link: "https://ieeexplore.ieee.org/abstract/document/10445413",
     },
-
+    
     {
       title:
         "Detection of COVID-19, Pneumonia, and Tuberculosis from Radiographs using AI-driven Knowledge Distillation",
@@ -313,7 +333,6 @@ const Publications = () => {
       title: "Towards Trustworthy Metaverse: Advancements and Challenges",
       journal: "IEEE Access",
       quartiles: "Q1",
-
       type: "Journal",
       year: "2023",
       link: "https://ieeexplore.ieee.org/abstract/document/10288438/",
@@ -325,7 +344,6 @@ const Publications = () => {
       journal: "IEEE Access",
       type: "Journal",
       quartiles: "Q1",
-
       year: "2023",
       link: "https://ieeexplore.ieee.org/abstract/document/10244015/",
       // img: j6,
@@ -335,7 +353,6 @@ const Publications = () => {
         "An Unsupervised Writer Identification Based on Generating Clusterable Embeddings.",
       journal: "Computer Systems Science & Engineering",
       quartiles: "Q3",
-
       type: "Journal",
       year: "2023",
       link: "https://www.researchgate.net/profile/Aklima-Lima/publication/368417097_An_Unsupervised_Writer_Identification_Based_on_Generating_Clusterablejingmbeddings/links/64466ae2017bc07902d758d6/An-Unsupervised-Writer-Identification-Based-on-Generating-Clusterablejiongmbeddings.pdf",
@@ -346,7 +363,6 @@ const Publications = () => {
         "Cardiac Failure Forecasting Based on Clinical Data Using a Lightweight Machine Learning Metamodel",
       journal: "Diagnostics",
       quartiles: "Q2",
-
       type: "Journal",
       year: "2023",
       link: "https://www.mdpi.com/2075-4418/13/15/2540",
@@ -357,7 +373,6 @@ const Publications = () => {
         "G-BERT: An Efficient Method for Identifying Hate Speech in Bengali Texts on Social Media",
       journal: "IEEE Access",
       quartiles: "Q1",
-
       type: "Journal",
       year: "2023",
       link: "https://ieeexplore.ieee.org/abstract/document/10194932",
@@ -368,7 +383,6 @@ const Publications = () => {
         "Secure Your Steps: A Class-Based Ensemble Framework for Real-Time Fall Detection using Deep Neural Networks",
       journal: "IEEE Access",
       quartiles: "Q1",
-
       type: "Journal",
       year: "2023",
       link: "https://ieeexplore.ieee.org/abstract/document/10162189",
@@ -379,7 +393,6 @@ const Publications = () => {
         "Deep Learning-Based IoT System for Remote Monitoring and Early Detection of Health Issues in Real-Time",
       journal: "Sensors",
       quartiles: "Q1",
-
       type: "Journal",
       year: "2023",
       link: "https://www.mdpi.com/1424-8220/23/11/5204",
@@ -390,7 +403,6 @@ const Publications = () => {
         "Self-Writer: Clusterable Embedding Based Self-Supervised Writer Recognition from Unlabeled Data",
       journal: "Mathematics",
       quartiles: "Q2",
-
       type: "Journal",
       year: "2023",
       link: "https://www.mdpi.com/2227-7390/10/24/4796",
@@ -401,7 +413,6 @@ const Publications = () => {
         "A Comprehensive Survey on the Progress, Process, and Challenges of Lung Cancer Detection and Classification",
       journal: "Journal of Healthcare Engineering",
       quartiles: "Q2",
-
       type: "Journal",
       year: "2022",
       link: "https://www.hindawi.com/journals/jhe/2022/5905230/",
@@ -412,7 +423,6 @@ const Publications = () => {
         "How can we manage Offensive Text in Social Media-A Text Classification Approach using LSTM-BOOST",
       journal: "International Journal of Information Management Data Insights",
       quartiles: "Q2",
-
       type: "Journal",
       year: "2022",
       link: "https://www.sciencedirect.com/science/article/pii/S2667096822000386",
@@ -422,7 +432,6 @@ const Publications = () => {
       title: "Content-Based Image Retrieval Using AutoEmbedder",
       journal: "Journal of Advances in Information Technology Vol",
       quartiles: "Q3",
-
       type: "Journal",
       year: "2022",
       link: "https://www.semanticscholar.org/paper/Content-Based-Image-Retrieval-Using-AutoEmbedder-Kabir-Ishraq/b6c5670c0fcbbc29bf58b956a297ff166e95574f?p2df",
@@ -433,7 +442,6 @@ const Publications = () => {
         "A Comprehensive Survey on the Detection, Classification, and Challenges of Neurological Disorders",
       journal: "Biology",
       quartiles: "Q1",
-
       type: "Journal",
       year: "2022",
       link: "https://www.mdpi.com/2079-7737/11/3/469",
@@ -444,7 +452,6 @@ const Publications = () => {
         "A survey of automatic text summarization: Progress, process and challenges",
       journal: "IEEE Access",
       quartiles: "Q1",
-
       type: "Journal",
       year: "2021",
       link: "https://ieeexplore.ieee.org/abstract/document/9623462",
@@ -515,6 +522,30 @@ const Publications = () => {
       type: "Conference",
       year: "2022",
       link: "https://ieeexplore.ieee.org/abstract/document/9765025",
+      // img: icbase,
+    },
+
+    {
+      title:
+        "Alzheimers Disease Classification with a Hybrid CNN-SVM Approach on Enhanced MRI Data",
+      journal:
+        "2024 International Conference on Innovation and Intelligence for Informatics, Computing, and Technologies (3ICT)",
+      quartiles: "",
+      type: "Conference",
+      year: "2024",
+      link: "https://ieeexplore.ieee.org/abstract/document/10824633",
+      // img: icbase,
+    },
+
+    {
+      title:
+        "DeepLabv3Att: Integrating Attention Mechanisms in DeepLabv3 for Enhanced Road Segmentation",
+      journal:
+        "2024 International Conference on Innovation and Intelligence for Informatics, Computing, and Technologies (3ICT)",
+      quartiles: "",
+      type: "Conference",
+      year: "2024",
+      link: "https://ieeexplore.ieee.org/abstract/document/10824285",
       // img: icbase,
     },
 
